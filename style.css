@@ -1,0 +1,44 @@
+.social-link {
+  margin-top: 4.5rem;
+}
+
+.social-link ul li {
+  display: inline-block;
+  margin: 0 .5rem;
+}
+
+/* .social-link ul li a:link {
+  color: #fff;
+} */
+
+.social-link ul li a {
+  color: #fff;
+}
+
+/* .social-link ul li a:link i::before {
+  background: #bdd1df;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%:
+  display: inline-block;
+  font-size: 2rem;
+  padding: 1rem;
+  transition: .5s;
+} */
+.social-link ul li a:link i::before {
+  background: #bdd1df;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 2rem;
+  padding: 1rem;
+  transition: .5s;
+}
+
+.social-link ul li a:hover i::before {
+  background: #393939;
+  transform: rotate(360deg);
+}
+
+/* team section End 9 */
