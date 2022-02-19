@@ -42,3 +42,54 @@
 }
 
 /* team section End 9 */
+
+/* skill section start */
+
+.skill-section {
+  text-align: center;
+  background: linear-gradient(rgba(255, 255, 255, .9),rgba(255, 255, 255, .9)), url(img/bg5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.skill-section h2,
+.skill-section h3 {
+  color: #3c4761;
+}
+
+.skill-section h2::after {
+  background: #dfe8ed;
+}
+
+.skill-section .box {
+  margin-top: 4.5rem;
+}
+
+svg.radial-progress circle {
+  stroke-width: 5;
+}
+
+svg.radial-progress text {
+  fill: #3c4761;
+  font-size: 1.5rem;
+}
+
+svg.web-design circle {
+  stroke: #30bae7;
+}
+
+svg.html-css circle {
+  stroke: #d74680;
+}
+
+svg.graphic-design circle {
+  stroke: #15c7a8;
+}
+
+svg.ui-ux circle {
+  stroke: #eb7d4b;
+}
+
+/* skill section End 11 */
