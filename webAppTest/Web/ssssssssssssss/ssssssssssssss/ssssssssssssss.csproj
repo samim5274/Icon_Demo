@@ -185,8 +185,13 @@
     <Compile Include="Migrations\202203170934590_CreateTable_Std1.Designer.cs">
       <DependentUpon>202203170934590_CreateTable_Std1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202203171419007_createdb.cs" />
+    <Compile Include="Migrations\202203171419007_createdb.Designer.cs">
+      <DependentUpon>202203171419007_createdb.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AppDbContext.cs" />
+    <Compile Include="Models\DepartmentInfo.cs" />
     <Compile Include="Models\StdInfo.cs" />
     <Compile Include="Models\UserInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -270,6 +275,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202203170934590_CreateTable_Std1.resx">
       <DependentUpon>202203170934590_CreateTable_Std1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202203171419007_createdb.resx">
+      <DependentUpon>202203171419007_createdb.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

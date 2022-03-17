@@ -9,6 +9,8 @@ namespace ssssssssssssss.Models
     public class AppDbContext : DbContext
     {
 
+        public DbSet<Department> Departments { get; set; }
+
         public DbSet<User> Users { get; set; }
 
         public DbSet<Std> Stds { get; set; }
