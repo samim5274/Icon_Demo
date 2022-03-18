@@ -15,5 +15,7 @@ namespace WebDemo.Models
         {
 
         }
+
+        public DbSet<StudentInfo> Students { get; set; }
     }
 }
